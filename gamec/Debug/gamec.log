@@ -1,0 +1,22 @@
+﻿Build started 9/1/2017 10:14:42 PM.
+     1>Project "C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\gamec\gamec.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\gamec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt menuGame.cpp
+         menuGame.cpp
+     1>c:\users\welcome\desktop\bai tap\phim heo\gamec\gamec\menugame.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\welcome\desktop\bai tap\phim heo\gamec\gamec\menugame.cpp(16): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\Debug\gamec.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\Debug\gamec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\Debug\gamec.lib" /MACHINE:X86 Debug\menuGame.obj
+         Debug\Source.obj
+         gamec.vcxproj -> C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\Debug\gamec.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\gamec.unsuccessfulbuild".
+         Touching "Debug\gamec.lastbuildstate".
+     1>Done Building Project "C:\Users\Welcome\Desktop\BAI TAP\phim heo\gamec\gamec\gamec.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43

@@ -1,0 +1,24 @@
+﻿Build started 6/6/2019 1:58:09 PM.
+     1>Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\gamec\gamec.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(110): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\conio.h(133) : see declaration of 'kbhit'
+     1>Source.cpp(113): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\conio.h(131) : see declaration of 'getch'
+     1>Source.cpp(366): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\Release\gamec.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\Release\gamec.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\Release\gamec.lib" /MACHINE:X86 /SAFESEH Release\menuGame.obj
+         Release\Source.obj
+         Generating code
+     1>c:\users\welcome\desktop\data\bai tap\phim heo\gamec\gamec\source.cpp(351): warning C4715: 'logic_game2' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\phim heo\gamec\gamec\source.cpp(340): warning C4715: 'logic_game1' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\phim heo\gamec\gamec\source.cpp(362): warning C4715: 'tinh_gia_tri_map' : not all control paths return a value
+         Finished generating code
+         gamec.vcxproj -> C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\Release\gamec.exe
+     1>Done Building Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\phim heo\gamec\gamec\gamec.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.28
