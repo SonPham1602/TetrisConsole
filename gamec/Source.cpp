@@ -270,9 +270,8 @@ void XOA_hinh()
 		cout<<" ";
 	}
 }
-void draw()
+void drawTile()
 {
-	draw_map();
 	for(int i=0;i<4;i++)
 	{
 		gotoXY(hinh.toa_do[i].x*2,hinh.toa_do[i].y);
@@ -282,6 +281,11 @@ void draw()
 		TextColor(hinh.color);
 		printf("%c",219);
 	}
+}
+void draw()
+{
+	draw_map();
+	
 	for(int i=0;i<22;i++)
 	{
 		for(int j=0;j<12;j++)
@@ -382,7 +386,7 @@ void main()
 	tao_thread();
 	// khoi tao gia tri 
 	mark=0;
-	speed=150;
+	speed=1000;
 	solanquay=0;
 	int end;
 	end =0;
@@ -392,11 +396,14 @@ void main()
 	//clrscr();
 	PlaySound(L"Cheerful-marimba-music-melody-loop.wav", NULL,  SND_FILENAME|SND_LOOP|SND_ASYNC);
 	vehinh();
+	clrscr();
 	RANDOM(iX,iY,hinh.tt, hinh.color);// random trang tai dau tien 
+	draw();
 	while(end!=1)
 	{
+		
 		//system("cls");
-		clrscr();
+		//clrscr();
 		khoi_tao_hinh(iX,iY);
 		dieu_kien(iX,iY);
 		CHECK();
@@ -404,7 +411,8 @@ void main()
 		{
 			RANDOM(iX,iY,hinh.tt, hinh.color);
 		}
-		draw();
+		
+		drawTile();
 		Sleep(speed);
 		XOA_hinh();
 	}
